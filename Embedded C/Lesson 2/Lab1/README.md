@@ -75,7 +75,7 @@ The following commands were used to compile, assemble, and link the application:
 - **Running on QEMU:**
   Simulated the application on the ARM VersatilePB board using QEMU:
   ```bash
-  qemu-system-arm -M versatilepb -m 128M -nographic -kernel "C:\Users\Dubai Store\Desktop\Lab1\App.bin"
+  qemu-system-arm -M versatilepb -m 128M -nographic -kernel "C:\Users\Mohamed\Desktop\Lab1\App.bin"
   ```
   - Verified that the string "Learn-In-Depth: Mohamed Elsayed" was transmitted correctly via UART0.
 
