@@ -1,6 +1,8 @@
 
 ### Lab Report: UART0 Communication on ARM VersatilePB Board
 
+
+
 **Objective:** To develop and simulate a bare-metal application on the ARM VersatilePB platform that sends the string "Learn-In-Depth: Mohamed Elsayed" via UART0.
 
 #### **1. Environment Setup**
