@@ -135,8 +135,8 @@ After compiling, you can run the program from the terminal:
 
 ## Report & Video
 
-- **Report**: [Download the project report]([https://drive.google.com/drive/folders/1WXWFNaMpJc_ZzF02iEWsGzPXgRBx5rnx?usp=drive_link])
-- **Video**: [Watch the program in action]([https://drive.google.com/drive/folders/17sfAB7xVPdkj4__VAaFt0_8nObihoKlF])
+- **Report**: [Download the project report](https://drive.google.com/drive/folders/1WXWFNaMpJc_ZzF02iEWsGzPXgRBx5rnx?usp=drive_link)
+- **Video**: [Watch the program in action](https://drive.google.com/drive/folders/17sfAB7xVPdkj4__VAaFt0_8nObihoKlF)
 
 ## Contribution
 
