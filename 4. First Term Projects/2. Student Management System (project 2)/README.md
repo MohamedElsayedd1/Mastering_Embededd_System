@@ -27,10 +27,10 @@ The **Student Database Management System** (DBMS) is a console-based application
 ## Project Structure
 
 ```
-/student-dbms
-├── student_dbms.c        # Main program logic
-├── student_dbms.h        # Header file with function declarations
-├── students.txt          # Example text file for batch student data input
+/student
+├── student.c        # Main program logic
+├── student.h        # Header file with function declarations
+├── data.txt          # Example text file for batch student data input
 ├── Makefile              # Build script (if using make for compilation)
 └── README.md             # Project overview and usage instructions
 ```
@@ -49,7 +49,7 @@ cd student-dbms
 You can compile the project using `gcc` or any other C compiler:
 
 ```bash
-gcc -o student_dbms student_dbms.c
+gcc -o StudentDataBase student.c main.c
 ```
 
 Alternatively, if a `Makefile` is included:
@@ -63,7 +63,7 @@ make
 After compiling, you can run the program from the terminal:
 
 ```bash
-./student_dbms
+./student
 ```
 
 ### 4. Features Overview
