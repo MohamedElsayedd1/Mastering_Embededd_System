@@ -1,6 +1,3 @@
-Here's a `README.md` template for this STM32F103C6 external interrupt configuration lab project:
-
-```markdown
 # STM32F103C6 External Interrupt Lab
 
 This lab project demonstrates setting up and handling external interrupts on the STM32F103C6 microcontroller. The project configures an external interrupt on pin `PA0` to toggle an LED connected to pin `PA13` on a rising edge event.
@@ -70,19 +67,14 @@ The setup includes:
 ## Links
 
 - **Keil µVision Debugging & Simulation Documentation**: [Keil µVision Guide](https://drive.google.com/file/d/1owgM3bLOrPrQh19BQswFUrfP_V07YaNF/view?usp=drive_link)
-- **Proteus Simulation File** (if applicable): [Proteus Simulation Project](#)
+- **Proteus Simulation File** (if applicable): [Proteus Simulation Project](https://drive.google.com/file/d/1Ub4NUqtfhzznhHefsWl9Y_rawU5tN3zm/view?usp=drive_link)
 
 ---
 
 ## Screenshots
 
-### STM32CubeIDE Configuration
-![STM32CubeIDE Configuration](./screenshots/stm32cubeide_config.png)
-
-### Simulation Output (Proteus or Other)
-![Simulation Output](./screenshots/simulation_output.png)
-
----
+### Keil µVision Debugging 
+![STM32CubeIDE Configuration](https://drive.google.com/drive/folders/1oxr4pEEtRGnVjOXjT2KllUqT7gxbZGRW)
 
 ## Usage
 
