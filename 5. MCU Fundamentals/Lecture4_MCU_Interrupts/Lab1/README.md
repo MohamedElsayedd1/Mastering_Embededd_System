@@ -74,7 +74,7 @@ The setup includes:
 ## Screenshots
 
 ### Keil µVision Debugging 
-[STM32CubeIDE Configuration](https://drive.google.com/drive/folders/1oxr4pEEtRGnVjOXjT2KllUqT7gxbZGRW)
+[Keil µVision Configuration](https://drive.google.com/drive/folders/1oxr4pEEtRGnVjOXjT2KllUqT7gxbZGRW)
 
 ## Usage
 
