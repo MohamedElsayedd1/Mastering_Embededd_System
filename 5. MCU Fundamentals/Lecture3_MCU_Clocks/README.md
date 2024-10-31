@@ -77,6 +77,3 @@ This project is licensed under the **BSD 3-Clause License**. You may obtain a co
 - **Mohamed Elsayed**  
   _Mastering Embedded Systems online diploma_
 
----
-
-Let me know if you'd like any adjustments!
