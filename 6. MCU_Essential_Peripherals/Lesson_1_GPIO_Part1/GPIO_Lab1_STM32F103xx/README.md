@@ -14,7 +14,7 @@ The main code for this project is in `main.c`, which handles button presses on `
 5. Load the compiled `.hex` file from STM32CubeIDE.
 
 ## Simulation Video
-[Watch the simulation video here](https://github.com/MohamedElsayedd1/Mastering_Embededd_System/blob/main/6.%20MCU_Essential_Peripherals/Lesson_1_GPIO_Part1/GPIO_Lab1_STM32F103xx/GPIO_Lab1.gif).
+![Watch the video](https://github.com/MohamedElsayedd1/Mastering_Embededd_System/blob/main/6.%20MCU_Essential_Peripherals/Lesson_1_GPIO_Part1/GPIO_Lab1_STM32F103xx/GPIO_Lab1.gif)
 
 ## License
 This project is licensed under the BSD 3-Clause License. See LICENSE for details.
