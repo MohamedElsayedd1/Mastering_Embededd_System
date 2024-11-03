@@ -23,7 +23,7 @@ This project demonstrates how to configure and handle external interrupts on an 
 
 1. **Clone the Repository**:
    ```bash
-   git clone <repo_link>
+   git clone <https://github.com/MohamedElsayedd1/Mastering_Embededd_System/tree/main/5.%20MCU%20Fundamentals/Lecture4_MCU_Interrupts/Lab2>
    ```
 2. **Open the Project in Atmel Studio**:
    - Open `TriggerExternalInterrupt.atsln` in Atmel Studio.
