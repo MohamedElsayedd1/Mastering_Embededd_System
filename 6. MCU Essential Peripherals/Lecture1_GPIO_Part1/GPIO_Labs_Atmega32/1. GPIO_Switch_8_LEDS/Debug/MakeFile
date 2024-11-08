@@ -1,0 +1,33 @@
+# Compiler and flags
+CC = avr-gcc
+CFLAGS = -Wall -g2 -O0 -mmcu=atmega32 -DF_CPU=1000000UL -Wl,-Map=program.map
+
+# Paths
+SRC_DIR = ..
+OBJ_DIR = .
+SRC = $(SRC_DIR)/main.c
+OBJ = $(SRC:.c=.o)
+
+# Target files
+TARGET_ELF = $(OBJ_DIR)/program.elf
+TARGET_HEX = $(OBJ_DIR)/program.hex
+TARGET_MAP = $(OBJ_DIR)/program.map
+
+# Default target
+all: $(TARGET_HEX) $(TARGET_ELF)
+
+# Link the object files to create the ELF file and generate a map file
+$(TARGET_ELF): $(OBJ)
+	$(CC) $(CFLAGS) -o $@ $^
+
+# Generate the HEX file from the ELF file
+$(TARGET_HEX): $(TARGET_ELF)
+	avr-objcopy -O ihex $< $@
+
+# Clean up generated files
+clean:
+	rm -f $(OBJ) $(TARGET_ELF) $(TARGET_HEX) $(TARGET_MAP)
+
+# Pattern rule for building object files
+$(OBJ): $(SRC)
+	$(CC) $(CFLAGS) -c $(SRC) -o $(OBJ)
