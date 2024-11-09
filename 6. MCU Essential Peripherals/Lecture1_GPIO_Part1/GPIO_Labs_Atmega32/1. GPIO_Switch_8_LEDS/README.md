@@ -3,7 +3,7 @@
 This project demonstrates a simple GPIO control program on an AVR ATmega32 microcontroller. The program sets up the GPIO pins on Port A as outputs and then sequentially sets and resets them with a delay.
 
 ## Simulation Video
-[Watch the simulation video](https://github.com/MohamedElsayedd1/Mastering_Embededd_System/blob/main/6.%20MCU%20Essential%20Peripherals/Lecture1_GPIO_Part1/GPIO_Labs_Atmega32/2.%20GPIO_PushButton_With_8_LEDS/GPIO_Lab3.gif)
+[Watch the simulation video](https://github.com/MohamedElsayedd1/Mastering_Embededd_System/blob/main/6.%20MCU%20Essential%20Peripherals/Lecture1_GPIO_Part1/GPIO_Labs_Atmega32/1.%20GPIO_Switch_8_LEDS/GPIO_Lab.gif)
 
 ## Project Structure
 
