@@ -1,0 +1,68 @@
+# Compiler and tools
+CC = avr-gcc
+OBJCOPY = avr-objcopy
+MCU = atmega32
+F_CPU = 1000000UL
+CFLAGS = -mmcu=$(MCU) -DF_CPU=$(F_CPU) -Os -Wall -I../ -std=c99
+
+# Directories
+SRC_DIR = ../
+LCD_DIR = $(SRC_DIR)LCD/
+KEYPAD_DIR = $(SRC_DIR)KEYPAD/
+OBJ_DIR = ./obj/
+OBJ_LCD_DIR = $(OBJ_DIR)LCD/
+OBJ_KEYPAD_DIR = $(OBJ_DIR)KEYPAD/
+
+# Source files
+SRC = $(SRC_DIR)main.c \
+      $(LCD_DIR)lcd.c \
+      $(KEYPAD_DIR)keypad.c
+
+# Header dependencies
+HEADERS = $(SRC_DIR)memmap.h \
+          $(LCD_DIR)lcd.h \
+          $(KEYPAD_DIR)keypad.h
+
+# Object files
+OBJS = $(OBJ_DIR)main.o \
+       $(OBJ_LCD_DIR)lcd.o \
+       $(OBJ_KEYPAD_DIR)keypad.o
+
+# Output files
+TARGET = lcd_keybad_interfacing.elf
+HEX_FILE = lcd_keybad_interfacing.hex
+
+# Default target
+all: create_dirs $(TARGET) $(HEX_FILE)
+
+# Create directories
+create_dirs:
+	mkdir -p $(OBJ_DIR)
+	mkdir -p $(OBJ_LCD_DIR)
+	mkdir -p $(OBJ_KEYPAD_DIR)
+
+# Compile source files into object files
+$(OBJ_DIR)main.o: $(SRC_DIR)main.c $(HEADERS)
+	$(CC) $(CFLAGS) -c $< -o $@
+
+$(OBJ_LCD_DIR)lcd.o: $(LCD_DIR)lcd.c $(HEADERS)
+	$(CC) $(CFLAGS) -c $< -o $@
+
+$(OBJ_KEYPAD_DIR)keypad.o: $(KEYPAD_DIR)keypad.c $(HEADERS)
+	$(CC) $(CFLAGS) -c $< -o $@
+
+# Create the target ELF file
+$(TARGET): $(OBJS)
+	$(CC) $(CFLAGS) $^ -o $@
+
+# Generate the HEX file from the ELF file
+$(HEX_FILE): $(TARGET)
+	$(OBJCOPY) -O ihex -R .eeprom $(TARGET) $(HEX_FILE)
+
+# Clean up build files
+clean:
+	rm -rf $(OBJ_DIR) $(TARGET) $(HEX_FILE)
+
+# Flash the HEX file to the microcontroller
+flash: $(HEX_FILE)
+	avrdude -c usbasp -p $(MCU) -U flash:w:$(HEX_FILE):i
