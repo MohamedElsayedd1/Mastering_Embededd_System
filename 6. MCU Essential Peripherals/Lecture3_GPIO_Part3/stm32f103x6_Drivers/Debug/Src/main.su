@@ -1,0 +1,6 @@
+main.c:27:6:clock_Init	4	static
+main.c:32:6:GPIO_Init	24	static
+main.c:60:17:ReadPushButton1	16	static
+main.c:66:17:ReadPushButton2	16	static
+main.c:72:6:delay	16	static
+main.c:79:5:main	16	static
