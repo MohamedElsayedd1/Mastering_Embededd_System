@@ -3,7 +3,7 @@
 This project uses an ATmega32 microcontroller to toggle LEDs on Port A based on the state of an external button connected to Port C. When the button connected to `PC0` is pressed, it toggles each LED on Port A sequentially.
 
 ## Simulation Video
-[Watch the simulation video](https://github.com/MohamedElsayedd1/Mastering_Embededd_System/blob/main/6.%20MCU%20Essential%20Peripherals/Lecture1_GPIO_Part1/GPIO_Labs_Atmega32/2.%20GPIO_PushButton_With_8_LEDS/GPIO_Lab1.gif)
+![Watch the simulation video](https://github.com/MohamedElsayedd1/Mastering_Embededd_System/blob/main/6.%20MCU%20Essential%20Peripherals/Lecture1_GPIO_Part1/GPIO_Labs_Atmega32/2.%20GPIO_PushButton_With_8_LEDS/GPIO_Lab1.gif)
 
 ## Project Structure
 
@@ -84,12 +84,3 @@ In the `main()` loop:
 - **Clean up files**: `make clean`
 
 This project demonstrates using an input button to control sequential LED toggling, a fundamental embedded systems concept.
-
---- 
-
-This `README.md` provides a clear overview of the updated functionality. Let me know if you need more details!
-The `Makefile` compiles `main.c` to generate an ELF file and converts it to a HEX file ready for flashing onto the microcontroller.
-
----
-
-This `README.md` should help clarify the project setup, build process, and functionality for anyone reviewing or using this project. Let me know if you’d like additional details!
