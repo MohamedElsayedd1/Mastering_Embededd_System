@@ -1,0 +1,8 @@
+stm32f103x6_GPIO_driver.c:21:6:MCAL_GPIO_Init	24	static
+stm32f103x6_GPIO_driver.c:70:6:MCAL_GPIO_DeInit	16	static
+stm32f103x6_GPIO_driver.c:107:7:MCAL_GPIO_ReadPin	16	static
+stm32f103x6_GPIO_driver.c:125:8:MCAL_GPIO_ReadPort	16	static
+stm32f103x6_GPIO_driver.c:141:6:MCAL_GPIO_WritePin	16	static
+stm32f103x6_GPIO_driver.c:167:6:MCAL_GPIO_WritePort	16	static
+stm32f103x6_GPIO_driver.c:189:6:MCAL_GPIO_TogglePin	16	static
+stm32f103x6_GPIO_driver.c:208:16:MCAL_GPIO_LockPin	24	static

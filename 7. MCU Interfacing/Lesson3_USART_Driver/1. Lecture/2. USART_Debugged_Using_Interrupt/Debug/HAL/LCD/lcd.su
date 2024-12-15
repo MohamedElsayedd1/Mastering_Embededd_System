@@ -1,0 +1,12 @@
+lcd.c:13:13:lcd_send_4bit	16	static
+lcd.c:20:13:lcd_send_EN	16	static
+lcd.c:27:6:lcd_initialize	24	static
+lcd.c:80:6:lcd_send_command	24	static
+lcd.c:102:6:lcd_send_char_data	24	static
+lcd.c:124:6:lcd_set_cursor_pos	16	static
+lcd.c:141:6:lcd_send_char_data_pos	16	static
+lcd.c:146:6:lcd_send_string	16	static
+lcd.c:152:6:lcd_send_string_pos	24	static
+lcd.c:157:6:covert_num_to_str	40	static
+lcd.c:185:6:lcd_send_custom_char	32	static
+lcd.c:201:6:_delay_ms	24	static

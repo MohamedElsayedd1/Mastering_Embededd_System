@@ -1,0 +1,13 @@
+stm32f103x6_EXTI_driver.c:34:13:EXTI_SYSCFG	24	static
+stm32f103x6_EXTI_driver.c:70:13:NVIC_EnableIRQ	16	static
+stm32f103x6_EXTI_driver.c:85:13:NVIC_DisableIRQ	16	static
+stm32f103x6_EXTI_driver.c:101:6:EXTI_Init	16	static
+stm32f103x6_EXTI_driver.c:162:6:EXTI_Deinit	16	static
+stm32f103x6_EXTI_driver.c:198:6:EXTI_SetCallback	16	static
+stm32f103x6_EXTI_driver.c:207:6:EXTI0_IRQHandler	8	static
+stm32f103x6_EXTI_driver.c:216:6:EXTI1_IRQHandler	8	static
+stm32f103x6_EXTI_driver.c:225:6:EXTI2_IRQHandler	8	static
+stm32f103x6_EXTI_driver.c:234:6:EXTI3_IRQHandler	8	static
+stm32f103x6_EXTI_driver.c:243:6:EXTI4_IRQHandler	8	static
+stm32f103x6_EXTI_driver.c:252:6:EXTI9_5_IRQHandler	8	static
+stm32f103x6_EXTI_driver.c:295:6:EXTI15_10_IRQHandler	8	static

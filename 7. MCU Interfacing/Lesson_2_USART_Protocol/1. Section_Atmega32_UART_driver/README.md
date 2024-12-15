@@ -4,7 +4,7 @@
 ### **Description**
 This project demonstrates the use of UART communication and an LCD module with the ATmega32 microcontroller. The program initializes UART with a baud rate of 9600 and sends a test string ("Testing UART") to both the UART interface and an LCD display. 
 
-![UART Testing]()
+![UART Testing](https://github.com/MohamedElsayedd1/Mastering_Embededd_System/blob/main/7.%20MCU%20Interfacing/Lesson_2_USART_Protocol/1.%20Section_Atmega32_UART_driver/UART_LCD_Interface.gif)
 
 ### **Features**
 - UART communication with customizable configurations (baud rate, data bits, stop bits, parity, and mode).
