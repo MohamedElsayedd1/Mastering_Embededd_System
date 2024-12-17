@@ -2,7 +2,7 @@
 
 In interrupt mode, the USART communication is handled by interrupts. When data is received, the USART interrupt triggers and a callback function is used to process the data. This allows the CPU to perform other tasks until data is available.
 
-![USART Interrupt]()
+![USART Interrupt](https://github.com/MohamedElsayedd1/Mastering_Embededd_System/blob/main/7.%20MCU%20Interfacing/Lesson3_USART_Driver/1.%20Lecture/2.%20USART_Debugged_Using_Interrupt/keil_USARTInterrupt_Debugged.png)
 
 #### Code Example: `main.c` for Interrupt Mode
 

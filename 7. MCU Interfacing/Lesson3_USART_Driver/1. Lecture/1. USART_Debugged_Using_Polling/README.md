@@ -4,7 +4,7 @@
 
 In this mode, the USART communication is done by constantly checking the status of the USART registers in a loop. The main program waits for data to be received and then transmits it.
 
-![USART Polling]()
+![USART Polling](https://github.com/MohamedElsayedd1/Mastering_Embededd_System/blob/main/7.%20MCU%20Interfacing/Lesson3_USART_Driver/1.%20Lecture/1.%20USART_Debugged_Using_Polling/KeilMicroVission_Debuging_Pulling.png)
 
 #### Code Example: `main.c` for Polling Mode
 
