@@ -63,6 +63,11 @@ A video demonstrating the Proteus simulation of the SPI project is provided belo
 ![Proteus Simulation](ProteusSimulation.gif)
 
 ---
+## **Debugging And Simulation**
+
+![]
+
+---
 
 ## **Author**
 - **Mohamed Elsayed**
