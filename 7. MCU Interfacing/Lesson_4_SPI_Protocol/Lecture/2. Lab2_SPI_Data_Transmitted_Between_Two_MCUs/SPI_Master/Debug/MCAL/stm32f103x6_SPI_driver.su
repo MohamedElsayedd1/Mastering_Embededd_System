@@ -1,0 +1,11 @@
+stm32f103x6_SPI_driver.c:24:13:MCAL_SPI_Set_GPIO_Pins	24	static
+stm32f103x6_SPI_driver.c:154:13:MCAL_SPI_SetCallBackFunction	16	static
+stm32f103x6_SPI_driver.c:164:13:MCAL_SPI_Enable_Global_Interrupt	16	static
+stm32f103x6_SPI_driver.c:174:13:MCAL_SPI_Disable_Global_Interrupt	16	static
+stm32f103x6_SPI_driver.c:189:6:MCAL_SPI_Init	16	static
+stm32f103x6_SPI_driver.c:348:6:MCAL_SPI_Transmit	16	static
+stm32f103x6_SPI_driver.c:358:8:MCAL_SPI_Recieve	24	static
+stm32f103x6_SPI_driver.c:370:8:MCAL_SPI_Transmit_Recieve	24	static
+stm32f103x6_SPI_driver.c:377:6:MCAL_SPI_Dinit	16	static
+stm32f103x6_SPI_driver.c:393:6:SPI1_IRQHandler	8	static
+stm32f103x6_SPI_driver.c:397:6:SPI2_IRQHandler	8	static
